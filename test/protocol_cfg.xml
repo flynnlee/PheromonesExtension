@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+	<!-- 配置参数 -->
+	<properties>
+		<!-- 协议文档输出路径 -->
+		<property key="output_path_protocol" value="/Users/flynn/Documents/clouter/workspace/PheromonesExtension/test/output"/>
+		<!-- 协议文档输出名称 -->
+		<property key="output_name_protocol" value="protocols.xml"/>
+		<!-- 协议文档模板位置 -->
+		<property key="vm_file_protocol" value="protocol.vm"/>
+		
+		<!-- dispatcher生成路径 -->
+		<property key="output_path_dispatcher" value="/Users/flynn/Documents/clouter/workspace/PheromonesExtension/test/com/clouter/pheromones/test/"/>
+		<!-- dispatcher模板位置 -->
+		<property key="vm_file_dispatcher" value="dispatcher.vm"/>
+		<!-- dispatcher文件名 -->
+		<property key="filename_dispatcher" value="Dispatcher.java"/>
+		<!-- dispatcher包名 -->
+		<property key="package_dispatcher" value="com.clouter.pheromones.test"/>
+		
+		<!-- 输出编码 -->
+		<property key="encode" value="UTF-8"/>
+	</properties>
+	
+	<protocols>
+		<protocol resource="sub.xml"/>
+		<protocol id="0" alias="TmpClass1" desc="aaaa"/>
+		<protocol id="1" alias="TmpClass1" desc="bbbb"/>
+		<protocol id="2" alias="TmpClass1" desc="cccc"/>
+	</protocols>
+</configure>

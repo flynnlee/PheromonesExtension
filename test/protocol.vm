@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocols>
+
+	<!-- 通用数据类型 -->
+#foreach($node in ${inputData.globalData.allOutputPheroNodes})
+#if(!$inputData.getOther("protocolGlobalData").isProtocolNode($node.alias))
+	<struct alias="$node.alias" desc="$node.desc">
+#foreach($field in ${node.fieldList})
+		<field alias="$field.alias"#if($field.generic) generic="$field.generic"#end desc="$field.desc"/>
+#end
+	</struct>
+#end
+#end
+
+	<!-- 协议数据 -->
+#foreach(${protocol} in ${inputData.data})
+	<protocol id="${protocol.id}" alias="${protocol.alias}" desc="${protocol.getProperty("desc")}">
+#foreach($field in ${protocol.aliasPheroNode.fieldList})
+		<field alias="${field.alias}"#if(${field.generic}) generic="${field.generic}"#end name="${field.name}" desc="${field.desc}"/>
+#end
+	</protocol>
+#end
+</protocols>

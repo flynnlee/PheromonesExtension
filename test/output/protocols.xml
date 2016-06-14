@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocols>
+
+	<!-- 通用数据类型 -->
+
+	<!-- 协议数据 -->
+	<protocol id="3" alias="TmpClass1" desc="啊啊啊啊">
+		<field alias="TmpClass2" name="value0" desc=""/>
+		<field alias="list" generic="float" name="value1" desc=""/>
+		<field alias="list" generic="double" name="value2" desc=""/>
+		<field alias="list" generic="byte" name="value3" desc=""/>
+		<field alias="list" generic="short" name="value4" desc=""/>
+		<field alias="list" generic="int" name="value5" desc=""/>
+		<field alias="list" generic="long" name="value6" desc=""/>
+		<field alias="list" generic="string" name="value7" desc=""/>
+		<field alias="list" generic="TmpClass2" name="value8" desc="list value"/>
+	</protocol>
+	<protocol id="4" alias="TmpClass2" desc="不不不不">
+		<field alias="float" name="value0" desc="float value"/>
+		<field alias="double" name="value1" desc="double value"/>
+		<field alias="byte" name="value2" desc="byte value"/>
+		<field alias="short" name="value3" desc="short value"/>
+		<field alias="int" name="value4" desc="int value"/>
+		<field alias="long" name="value5" desc="long value"/>
+		<field alias="string" name="value6" desc="string value"/>
+	</protocol>
+	<protocol id="5" alias="TmpClass2" desc="痴痴缠缠">
+		<field alias="float" name="value0" desc="float value"/>
+		<field alias="double" name="value1" desc="double value"/>
+		<field alias="byte" name="value2" desc="byte value"/>
+		<field alias="short" name="value3" desc="short value"/>
+		<field alias="int" name="value4" desc="int value"/>
+		<field alias="long" name="value5" desc="long value"/>
+		<field alias="string" name="value6" desc="string value"/>
+	</protocol>
+	<protocol id="0" alias="TmpClass1" desc="aaaa">
+		<field alias="TmpClass2" name="value0" desc=""/>
+		<field alias="list" generic="float" name="value1" desc=""/>
+		<field alias="list" generic="double" name="value2" desc=""/>
+		<field alias="list" generic="byte" name="value3" desc=""/>
+		<field alias="list" generic="short" name="value4" desc=""/>
+		<field alias="list" generic="int" name="value5" desc=""/>
+		<field alias="list" generic="long" name="value6" desc=""/>
+		<field alias="list" generic="string" name="value7" desc=""/>
+		<field alias="list" generic="TmpClass2" name="value8" desc="list value"/>
+	</protocol>
+	<protocol id="1" alias="TmpClass1" desc="bbbb">
+		<field alias="TmpClass2" name="value0" desc=""/>
+		<field alias="list" generic="float" name="value1" desc=""/>
+		<field alias="list" generic="double" name="value2" desc=""/>
+		<field alias="list" generic="byte" name="value3" desc=""/>
+		<field alias="list" generic="short" name="value4" desc=""/>
+		<field alias="list" generic="int" name="value5" desc=""/>
+		<field alias="list" generic="long" name="value6" desc=""/>
+		<field alias="list" generic="string" name="value7" desc=""/>
+		<field alias="list" generic="TmpClass2" name="value8" desc="list value"/>
+	</protocol>
+	<protocol id="2" alias="TmpClass1" desc="cccc">
+		<field alias="TmpClass2" name="value0" desc=""/>
+		<field alias="list" generic="float" name="value1" desc=""/>
+		<field alias="list" generic="double" name="value2" desc=""/>
+		<field alias="list" generic="byte" name="value3" desc=""/>
+		<field alias="list" generic="short" name="value4" desc=""/>
+		<field alias="list" generic="int" name="value5" desc=""/>
+		<field alias="list" generic="long" name="value6" desc=""/>
+		<field alias="list" generic="string" name="value7" desc=""/>
+		<field alias="list" generic="TmpClass2" name="value8" desc="list value"/>
+	</protocol>
+</protocols>
